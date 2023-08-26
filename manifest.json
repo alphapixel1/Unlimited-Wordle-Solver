@@ -10,16 +10,12 @@
     }
 
   ],
-  "background": {
-    "scripts": ["Background.js"]
-  },
   "browser_action":{
       "browser_style":true,
       "default_icon":{
           "96":"images/96x96.png"
       },
-      "default_title":"Instructure Quizlet",
-      "default_popup":"Popup/PopupV5.html"
+      "default_title":"Wordle Solver"
   },
   "permissions":[
       "<all_urls>"   
