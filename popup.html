@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wordle Solver</title>
+  <style>
+    *{
+        font-family: sans-serif
+
+    }
+    body {
+      padding: 10px;
+      background-color: #121213;
+    }
+    button{
+        width: 250px !important;
+        font-size: 15px;
+        border-radius: 15px;
+        padding: 13px 40px;
+        cursor: pointer;
+        color: #ffffff;
+        margin: 2px;
+    }
+    .NYT {
+			background-color: #2d63c8;
+			border: 1px solid #2d63c8;
+		}
+    .NYT:hover {
+        color: #2d63c8;
+        background-color: #ffffff;
+    }
+    .Unlimited {
+			background-color: #538d4e;
+			border: 1px solid #538d4e;
+		}
+    .Unlimited:hover {
+        color: #538d4e;
+        background-color: #ffffff;
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+  </style>
+</head>
+<body>
+    <h1>Wordle Solver</h1>
+    <button class="NYT" >New York Times Wordle</button>
+    <br>
+    <button class="Unlimited" id="Unlimited">Wordle Unlimited</button>
+    <script src="popup.js"></script>
+</body>
+</html> 
