@@ -1,0 +1,27 @@
+{
+  "manifest_version":2,
+  "name":"Wordle Unlimited Solver",
+  "version":"1.0.0",
+  "content_scripts": [
+    {
+      "matches":["https://wordleunlimited.org"],
+      "js":["wordleSolver.js"],
+      "run_at":"document_idle"
+    }
+
+  ],
+  "background": {
+    "scripts": ["Background.js"]
+  },
+  "browser_action":{
+      "browser_style":true,
+      "default_icon":{
+          "96":"images/96x96.png"
+      },
+      "default_title":"Instructure Quizlet",
+      "default_popup":"Popup/PopupV5.html"
+  },
+  "permissions":[
+      "<all_urls>"   
+  ]
+}
